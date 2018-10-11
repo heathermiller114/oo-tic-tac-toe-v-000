@@ -137,7 +137,7 @@ def play
   
   if won?
     puts "Congratulations #{winner}!"
-  elsif draw? == true
+  else
     puts "Cat's Game!"
   end
 end
